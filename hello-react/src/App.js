@@ -6,6 +6,9 @@ import MyComponent from "./components/MyComponent";
 import UseSnippet from "./components/UseSnippet";
 import PropsBasic from "./components/PropsBasic";
 import ClassProps from "./components/ClassProps";
+import Counter from "./components/Counter";
+import Say from "./components/Say";
+import EventPractice from "./components/EventPractice";
 
 function App() {
   return (
@@ -20,9 +23,12 @@ function App() {
         칠드런
       </PropsBasic> */}
       {/* <PropsBasic>리액트</PropsBasic> */}
-      <ClassProps name="React" favoriteNumber={2}>
+      {/* <ClassProps name="React" favoriteNumber={2}>
         칠드런테스트
-      </ClassProps>
+      </ClassProps> */}
+      {/* <Counter /> */}
+      {/* <Say /> */}
+      <EventPractice />
     </div>
   );
 }
