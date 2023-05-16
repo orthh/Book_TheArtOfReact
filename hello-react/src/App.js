@@ -9,6 +9,7 @@ import ClassProps from "./components/ClassProps";
 import Counter from "./components/Counter";
 import Say from "./components/Say";
 import EventPractice from "./components/EventPractice";
+import IterationSample from "./components/IterationSample";
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
       </ClassProps> */}
       {/* <Counter /> */}
       {/* <Say /> */}
-      <EventPractice />
+      {/* <EventPractice /> */}
+      <IterationSample />
     </div>
   );
 }
